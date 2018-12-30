@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\yudni\AndroidStudioProjects\WhatToWeather\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1aa08d66f4c3bb4f44c9972702966c65d20823d">
+        <dex dex="C:\Users\yudni\AndroidStudioProjects\WhatToWeather\app\build\intermediates\pre-dexed\debug\classes_cb9dcf50f87ee6513d8a6f6f83a8404bb5e57b91.jar" />
+    </item>
+
+</items>

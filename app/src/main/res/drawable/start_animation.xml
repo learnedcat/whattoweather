@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/startAnimation"
+    android:oneshot="false">
+
+        <item android:drawable="@drawable/female_dress" android:duration="150" />
+        <item android:drawable="@drawable/male_longsleeve" android:duration="150" />
+        <item android:drawable="@drawable/female_hoodie" android:duration="150" />
+        <item android:drawable="@drawable/male_t_shirt" android:duration="150" />
+        <item android:drawable="@drawable/female_winter_jacket" android:duration="150" />
+        <item android:drawable="@drawable/male_summer_jacket" android:duration="150" />
+        <item android:drawable="@drawable/female_t_shirt" android:duration="150" />
+        <item android:drawable="@drawable/male_jacket" android:duration="150" />
+        <item android:drawable="@drawable/female_longsleeve" android:duration="150" />
+        
+
+</animation-list>

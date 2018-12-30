@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.yudni.whattoweather.Activity.SettingsActivity">
+
+
+    <RadioButton
+        android:id="@+id/radioButtonFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/female"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/radioButtonF"
+        android:layout_alignParentEnd="true" />
+
+    <RadioButton
+        android:id="@+id/radioButtonMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/male"
+        android:layout_below="@+id/radioButtonFemale"
+        android:layout_alignLeft="@+id/radioButtonFemale"
+        android:layout_alignStart="@+id/radioButtonFemale" />
+
+    <TextView
+        android:id="@+id/textViewG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25sp"
+        android:text="@string/gender"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/radioButtonFemale"
+        android:layout_alignBottom="@+id/radioButtonMale"
+        android:layout_toStartOf="@+id/radioButtonFemale"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <RadioButton
+        android:id="@+id/radioButtonF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="°F"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_alignLeft="@+id/radioButtonC"
+        android:layout_alignStart="@+id/radioButtonC" />
+
+    <RadioButton
+        android:id="@+id/radioButtonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="°C"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/radioButtonFemale"
+        android:layout_alignStart="@+id/radioButtonFemale" />
+
+    <TextView
+        android:id="@+id/textViewU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25sp"
+        android:text="@string/units"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/radioButtonF"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textViewG" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="15dp"
+        android:text="@string/real"
+        android:layout_below="@+id/radioButtonMale"
+        android:layout_alignLeft="@+id/radioButtonMale"
+        android:layout_alignStart="@+id/radioButtonMale" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTFl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/feels_like"
+        android:layout_below="@+id/radioButtonTR"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/radioButtonTR"
+        android:layout_alignStart="@+id/radioButtonTR" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25sp"
+        android:text="@string/temperature"
+        android:gravity="center_vertical"
+        android:layout_alignTop="@+id/radioButtonTR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/radioButtonTFl" />
+
+    <ImageButton
+        android:id="@+id/buttonTeach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="28dp"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_help" />
+</RelativeLayout>

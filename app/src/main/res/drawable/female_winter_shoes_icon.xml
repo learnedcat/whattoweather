@@ -1,0 +1,16 @@
+<vector android:height="24dp" android:viewportHeight="512.0"
+    android:viewportWidth="512.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#A28F78" android:pathData="M455.3,351.4c0,0 -98.9,-22.4 -131.9,-29.8c-25.1,-5.7 -45.7,-31.4 -45.7,-57.2V123.4h-33.8l-22.5,334.2h279.5v-49C501,382.8 480.4,357.1 455.3,351.4z"/>
+    <path android:fillColor="#CEBC96" android:pathData="M22,123.4l0,334.2l45,0l-11.3,-334.2z"/>
+    <path android:fillColor="#B4A385" android:pathData="M467.2,408.6c0,-10 -9.6,-22.1 -19.4,-24.3l-131.9,-29.8c-40.4,-9.1 -72,-48.7 -72,-90.1V123.4H55.8v334.2h411.5V408.6z"/>
+    <path android:fillColor="#CEBC96" android:pathData="M277.7,256h-33.8v16.9h33.8c4.7,0 8.4,-3.8 8.4,-8.4S282.4,256 277.7,256z"/>
+    <path android:fillColor="#E7D4A7" android:pathData="M243.9,256H124.5V123.4h-16.9v332.9h16.9V272.9h119.4c4.7,0 8.4,-3.8 8.4,-8.4S248.6,256 243.9,256z"/>
+    <path android:fillColor="#F9F3E2" android:pathData="M22,24.3C9.9,24.3 0,34.3 0,46.4v77.6c0,12.1 9.9,22 22,22H55.8V24.3H22z"/>
+    <path android:fillColor="#E7D4A7" android:pathData="M277.7,24.3h-33.8v121.6h33.8c12.1,0 22,-9.9 22,-22v-77.6C299.7,34.3 289.8,24.3 277.7,24.3z"/>
+    <path android:fillColor="#F3E6C5" android:pathData="M266,123.9v-77.6c0,-12.1 -9.9,-22 -22,-22H55.8c-12.1,0 -22,9.9 -22,22v77.6c0,12.1 9.9,22 22,22h188.2C256.1,145.9 266,136 266,123.9z"/>
+    <path android:fillColor="#E7D4A7" android:pathData="M61.1,60.8c-4.7,0 -8.4,3.8 -8.4,8.4s3.8,8.4 8.4,8.4s8.4,-3.8 8.4,-8.4C69.5,64.5 65.8,60.8 61.1,60.8z"/>
+    <path android:fillColor="#E7D4A7" android:pathData="M94.9,84.4c-4.7,0 -8.4,3.8 -8.4,8.4s3.8,8.4 8.4,8.4c4.7,0 8.4,-3.8 8.4,-8.4S99.5,84.4 94.9,84.4z"/>
+    <path android:fillColor="#F9F3E2" android:pathData="M44.8,446.4l22.5,20.6l-22.5,20.6l-33.8,0l0,-41.3z"/>
+    <path android:fillColor="#E7D4A7" android:pathData="M478.2,446.4l-22.5,20.6l22.5,20.6l33.8,0l0,-41.3z"/>
+    <path android:fillColor="#F3E6C5" android:pathData="M44.8,446.4h433.5v41.3h-433.5z"/>
+</vector>

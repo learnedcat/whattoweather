@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorTeaching"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageTeach21"
+        android:layout_width="100dp"
+        android:layout_height="330dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/gradient_teach21"
+        app:srcCompat="@drawable/teach21" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@+id/imageTeach21"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@+id/imageTeach21"
+        android:layout_toStartOf="@+id/imageTeach21"
+        app:srcCompat="@drawable/teach22" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:layout_alignBottom="@+id/imageTeach21"
+        android:layout_alignStart="@+id/imageView3"
+        app:srcCompat="@drawable/teach23" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:minLines="2"
+        android:maxLines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/teach2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

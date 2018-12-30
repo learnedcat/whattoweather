@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorListBackground">#3F51B5</color>
+    <color name="colorTeaching">#e9e5d9</color>
+    <color name="colorStartTitle">#3F51B5</color>
+
+    <color name="day_cloudy_up">#5c9cea</color>
+    <color name="day_cloudy_down">#ffffffff</color>
+    <color name="day_cloudy_text">#1f3a93</color>
+
+    <color name="day_sunny_up">#5c9cea</color>
+    <color name="day_sunny_down">#ffffffff</color>
+    <color name="day_sunny_text">#1f3a93</color>
+
+    <color name="day_sunny_overcast_up">#bdc2cb</color>
+    <color name="day_sunny_overcast_down">#ffffffff</color>
+    <color name="day_sunny_overcast_text">#4b61cc</color>
+
+    <color name="fog_up">#bdc2cb</color>
+    <color name="fog_down">#ffffffff</color>
+    <color name="fog_text">#4b61cc</color>
+
+    <color name="lightning_up">#bdc2cb</color>
+    <color name="lightning_down">#ffffffff</color>
+    <color name="lightning_text">#4b61cc</color>
+
+    <color name="night_clear_up">#365c8a</color>
+    <color name="night_clear_down">#ffffff</color>
+    <color name="night_clear_text">#94dffe</color>
+
+    <color name="night_cloudy_up">#365c8a</color>
+    <color name="night_cloudy_down">#ffffff</color>
+    <color name="night_cloudy_text">#94dffe</color>
+
+    <color name="rain_up">#bdc2cb</color>
+    <color name="rain_down">#ffffffff</color>
+    <color name="rain_text">#4b61cc</color>
+
+    <color name="snow_up">#bdc2cb</color>
+    <color name="snow_down">#ffffffff</color>
+    <color name="snow_text">#4b61cc</color>
+
+    <color name="winter_color1">#dfe3ea</color>
+    <color name="winter_color2">#c2c5cb</color>
+    <color name="winter_color3">#c4d1e7</color>
+
+    <color name="spring_color1">#b4ea9d</color>
+    <color name="spring_color2">#9ed432</color>
+    <color name="spring_color3">#e3e7db</color>
+
+    <color name="summer_color1">#b4ea9d</color>
+    <color name="summer_color2">#23b047</color>
+    <color name="summer_color3">#71ea3c</color>
+
+    <color name="autumn_color1">#f4d17e</color>
+    <color name="autumn_color2">#dea211</color>
+    <color name="autumn_color3">#ffc438</color>
+</resources>
